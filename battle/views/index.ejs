@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>Hi, welcome to Rock Paper Scissors</h1>
+  <p>What is your name? (Single player) </p>
+  <form action="/game" method="post">
+    <p>Player 1: <input id="player1-name-textbox" type="text" name="player1"></p>
+    <p>Do you want to use lizard spock options too?</p>
+    <input type="checkbox" id="gametype" name="gametype" value="5">
+    <label for="gametype"> Yes! </label><br>
+    <input id="names-submit" type="submit" value="Submit!">
+  </form>
+  <p>Or enter names here for multiplayer!</p>
+  <form action="/gameMulti" method="post">
+    <p>Player 1: <input id="player1-name-textbox" type="text" name="player1"></p>
+    <p>Player 2: <input id="player2-name-textbox" type="text" name="player2"></p>
+    <p>Do you want to use lizard spock options too?</p>
+    <input type="checkbox" id="gametype" name="gametype" value="5">
+    <label for="gametype"> Yes! </label><br>
+    <input id="names-submit" type="submit" value="Submit!">
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>Current Player: <%= name %>!</h1>
+  <h1>What shall you play? </h1>
+
+  <form action="/turn" method="post">
+    <input id="rock" type="submit" value="rock" name="choice">
+    <input id="paper" type="submit" value="paper" name="choice">
+    <input id="scissors" type="submit" value="scissors" name="choice">
+    <p>Plus additional options... will only work if you checked the box :) pls dont break my game</p>
+    <input id="lizard" type="submit" value="lizard" name="choice">
+    <input id="spock" type="submit" value="spock" name="choice">
+  </form>
+
+
+</body>
+
+</html>
